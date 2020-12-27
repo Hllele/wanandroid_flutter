@@ -17,8 +17,22 @@
 |lpinyin|1.0.7|https://github.com/flutterchina/lpinyin|
 ||||
 
-<img src="https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E9%A6%96%E9%A1%B5.png" width = "200"  alt="首页" align=center />
+<img src="https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E9%A6%96%E9%A1%B5.png" width = "300"  alt="首页" align=center />
+<img src="https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E4%BD%93%E7%B3%BB.png" width = "300"  alt="首页" align=center />
+<img src="https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E5%AF%BC%E8%88%AA.png" width = "300"  alt="首页" align=center />
+<img src="https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E9%A1%B9%E7%9B%AE.png" width = "300"  alt="首页" align=center />
+<img src="https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E4%BD%93%E7%B3%BB%E4%BA%8C%E7%BA%A7%E9%A1%B5%E9%9D%A2.png" width = "300"  alt="首页" align=center />
+<img src="https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E8%AF%A6%E6%83%85.png" width = "300"  alt="首页" align=center />
 
-![首页](https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E9%A6%96%E9%A1%B5.png "首页")
+###tudo
+- [ ] 登录
+- [ ] 注册
+- [ ] 代办清单
+- [ ] 增加下拉增加更多提示
+- [ ] 增加下拉更多提示
+- [ ] 增加错误页面
+- [ ] 增加空白页面
+- [ ] 详情页增加空视图、错误视图、进度条
+
 
 
