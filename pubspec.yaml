@@ -1,0 +1,56 @@
+name: wanandroid_flutter2
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # https://github.com/flutter/plugins/tree/master/packages/shared_preferences
+  shared_preferences: ^0.5.3+4
+
+  # https://github.com/PonnamKarthik/FlutterToast
+  fluttertoast: ^3.0.4
+
+  # https://github.com/flutterchina/dio
+  dio: ^3.0.9
+
+  # https://pub.dev/packages/dio_cookie_manager
+  dio_cookie_manager: 1.0.0
+
+  cookie_jar: ^1.0.1
+
+  # https://pub.dev/packages/flutter_webview_plugin#-readme-tab
+  flutter_webview_plugin: ^0.3.5
+
+  # https://github.com/best-flutter/flutter_swiper
+  flutter_swiper: ^1.1.6
+
+  #logger
+  logger: ^0.9.4
+
+  # 汉字转拼音库 https://github.com/flutterchina/lpinyin
+  lpinyin: ^1.0.7
+
+  #flutter_webview https://pub.dev/packages/webview_flutter
+  webview_flutter: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icon_avatar_default.jpg
+
