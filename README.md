@@ -17,7 +17,7 @@
 |lpinyin|1.0.7|https://github.com/flutterchina/lpinyin|
 ||||
 
-<img src="https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E9%A6%96%E9%A1%B5.png" width = "300" height = "200" alt="首页" align=center />
+<img src="https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E9%A6%96%E9%A1%B5.png" width = "200"  alt="首页" align=center />
 
 ![首页](https://raw.githubusercontent.com/Hllele/wanandroid_flutter/master/%E6%88%AA%E5%9B%BE/%E9%A6%96%E9%A1%B5.png "首页")
 
