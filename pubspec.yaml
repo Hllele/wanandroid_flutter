@@ -43,6 +43,10 @@ dependencies:
   #flutter_webview https://pub.dev/packages/webview_flutter
   webview_flutter: ^1.0.7
 
+  # 20201227  https://pub.dev/packages/provider
+  provider: ^4.3.2+3
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

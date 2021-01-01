@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 import 'package:wanandroid_flutter2/model/navi_model.dart';
 import 'package:wanandroid_flutter2/net/api_service.dart';
+import 'package:wanandroid_flutter2/page/web_detail_page.dart';
 import 'package:wanandroid_flutter2/res/colors.dart';
 import 'package:wanandroid_flutter2/utils/utils.dart';
 
@@ -98,7 +99,14 @@ class _NaviPageState extends State<NaviPage>
     List<Widget> items = List();
     items.clear();
     for (int i = 0; i < articleData.length; i++) {
-      items.add(Chip(label: Text(articleData[i].title,style: TextStyle(color: Colors.white),),backgroundColor: Utils.getRandomColor(),));
+      items.add(GestureDetector(child: Chip(label: Text(articleData[i].title,style: TextStyle(color: Colors.white),),backgroundColor: Utils.getRandomColor(),),onTap: (){
+        Navigator.of(context).push(new MaterialPageRoute(builder: (context) {
+          return WebDetailPage(
+            title: articleData[i].title,
+            url: articleData[i].link,
+          );
+        }));
+      },));
     }
     return items;
   }

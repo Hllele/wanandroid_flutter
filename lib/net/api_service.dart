@@ -47,9 +47,11 @@ class ApiService {
   }
 
   ///体系对应文章
-  void getTreeDetail(Function callback, Function errorback,int cid,int page) async{
+  void getTreeDetail(
+      Function callback, Function errorback, int cid, int page) async {
     DioManager.singleton.dio
-        .get(Api.SYSTEM_TREE_CONTENT +"$page/json?cid=$cid", options: _getOptions())
+        .get(Api.SYSTEM_TREE_CONTENT + "$page/json?cid=$cid",
+            options: _getOptions())
         .then((response) {
       callback(TreeArticleModel.fromJson(response.data));
     }).catchError((e) {
@@ -58,7 +60,7 @@ class ApiService {
   }
 
   ///导航
-  void getNaviData(Function callback, Function errorback) async{
+  void getNaviData(Function callback, Function errorback) async {
     DioManager.singleton.dio
         .get(Api.NAVI_LIST, options: _getOptions())
         .then((response) {
@@ -69,7 +71,7 @@ class ApiService {
   }
 
   ///项目
-  void getProjectData(Function callback, Function errorback) async{
+  void getProjectData(Function callback, Function errorback) async {
     DioManager.singleton.dio
         .get(Api.PROJECT_TREE, options: _getOptions())
         .then((response) {
@@ -80,9 +82,10 @@ class ApiService {
   }
 
   ///项目数据
-  void getProjectDetailData(Function callback, Function errorback,int cid,int page) async{
+  void getProjectDetailData(
+      Function callback, Function errorback, int cid, int page) async {
     DioManager.singleton.dio
-        .get(Api.PROJECT_LIST +"$page/json?cid=$cid", options: _getOptions())
+        .get(Api.PROJECT_LIST + "$page/json?cid=$cid", options: _getOptions())
         .then((response) {
       callback(ProjectDetailModel.fromJson(response.data));
     }).catchError((e) {

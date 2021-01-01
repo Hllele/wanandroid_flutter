@@ -38,22 +38,22 @@ class _TabNavigationState extends State<TabNavigation> {
               icon: Icon(
                 Icons.home,
               ),
-              title: Text("")),
+              title: Text("首页")),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.filter_list,
               ),
-              title: Text("")),
+              title: Text("体系")),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.low_priority,
               ),
-              title: Text("")),
+              title: Text("导航")),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.apps,
               ),
-              title: Text("")),
+              title: Text("项目")),
         ],
         currentIndex: _currentIndex,
         type: BottomNavigationBarType.fixed,
